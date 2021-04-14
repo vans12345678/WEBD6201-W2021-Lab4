@@ -76,6 +76,7 @@ var core;
     function displayLogin() {
     }
     function displayRegister() {
+        formValidation();
     }
     function Start() {
         let pageID = $("body")[0].getAttribute("id");

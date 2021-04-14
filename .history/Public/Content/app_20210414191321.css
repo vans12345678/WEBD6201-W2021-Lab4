@@ -1,0 +1,53 @@
+/* custom css goes here */
+.siteBackground {
+    background-image: url('/Public/Assets/images/greenBackground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  a {
+    color: greenyellow;
+  }
+  body
+  {
+    background-image: url('../Assets/images/greenBackground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+ h1, p, i, h4, th, tr, td, h3, h2{
+   color:beige;
+ }
+ a{
+   font-size: large;
+ }
+table
+{
+  background-color:rgba(0, 168, 28, 0.452);
+}
+.formBackground
+  {
+    background-color: rgba(0, 168, 28, 0.452);
+    border: 5px solid rgb(0, 0, 0);
+    margin: 35px 70px;
+    
+  }
+  .formMargin
+  {
+    margin: 35px 70px;
+  }
+  .inputMargin
+  {
+    margin: 5px 10px;
+  }
+  .footer
+  {
+    width: 100%;
+    height: 200px;
+    margin-top: 333px;
+    margin-bottom: 0px;
+    z-index: 12;
+    background-color: rgb(134, 147, 158);
+    position: fixed;
+    bottom: 0;
+  }
